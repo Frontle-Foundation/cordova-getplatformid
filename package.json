@@ -1,0 +1,35 @@
+{
+  "name": "@frontle/cordova-getplatformid",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "./",
+  "description": "Get platform id in Cordova",
+  "keywords": [
+    "frontle",
+    "platform id",
+    "get platform id",
+    "getPlatformID",
+    "browser",
+    "android",
+    "ios",
+    "cordova",
+    "electron",
+    "frontle"
+  ],
+  "author": "Yun HyeongJun <y37653@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frontle-Foundation/cordova-getplatformid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frontle-Foundation/cordova-getplatformid/issues"
+  },
+  "homepage": "https://github.com/Frontle-Foundation/cordova-getplatformid#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "dependencies": {}
+}
