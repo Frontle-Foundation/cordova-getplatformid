@@ -15,7 +15,7 @@ console.log(GetPlatformID()); // browser, ios, android, electron
 **Frontle**
 
 ```shell
-frontle install @frontle/cordova-getplatformid --notBuild
+frontle install @frontle/cordova-getplatformid --noBuild
 ```
 
 **File Download**
