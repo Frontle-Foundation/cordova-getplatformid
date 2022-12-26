@@ -1,14 +1,15 @@
 {
   "name": "@frontle/cordova-getplatformid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "module": "./",
   "description": "Get platform id in Cordova",
   "keywords": [
-    "frontle",
     "platform id",
     "get platform id",
     "getPlatformID",
+    "vanilla",
+    "javascript",
     "browser",
     "android",
     "ios",
