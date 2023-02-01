@@ -1,17 +1,5 @@
 const GetPlatformID = () => {
-  let result = "";
-
-  // platform is browser
-  if (location.href.substring(0, 4) === "http") {
-    // browser
-    if (window.cordova === undefined) result = "browser";
-    // live reload
-    else result = window.cordova.platformId;
-  }
-  // platform is cordova android or ios or electron
-  else result = window.cordova.platformId;
-
-  return result;
+  return window.cordova === undefined ? "browser" : window.cordova.platformId;
 };
 
 export { GetPlatformID };
